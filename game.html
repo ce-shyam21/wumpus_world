@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wumpus World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="./images/logo.png" alt="University Logo">
+            </div>
+            <h1>👻Wumpus World👻</h1>
+        </div>
+    </header>
+    
+    <main>
+        <div id="controls">
+            <button id="up" class="button-29">Up ⬆️</button>
+            <button id="down" class="button-29">Down ⬇️</button>
+            <button id="left" class="button-29">Left ⬅️</button>
+            <button id="right" class="button-29">Right ➡️</button>
+            <button id="findGold" class="button-29">Find Gold 🏆</button>
+        </div>
+        <div id="gridContainer">
+            <!-- Grid cells will be dynamically created here from scripts-->
+        </div>
+        <section id="status">
+            <p id="currentStatus">Current Status:</p>
+            <p id="current-node-info"></p>
+        </section>
+        <section id="moveLog">
+            <h3>Move Log:</h3>
+            <ul id="movesList"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 All rights reserved.</p>
+            <p>Created by Shyam Mangroliya</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

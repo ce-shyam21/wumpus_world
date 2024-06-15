@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wumpus World Rules</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+            background-color: #f0f0f0;
+            background-image: url('./images/rules.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.689);
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .logo img {
+            max-height: 70px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.689);
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .footer-container p {
+            margin: 5px 0;
+            color: #fff;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        .rule-section {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .rule-section h2 {
+            color: #4CAF50;
+            margin-top: 0;
+        }
+
+        .rule-section ul {
+            padding-left: 20px;
+        }
+
+        .rule-section p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./images/logo.png" alt="University Logo">
+        </div>
+        <h1>👻Wumpus World👻</h1>
+    </header>
+    <main>
+        <br>
+        <br>
+        <section class="rule-section">
+            <h2>Introduction</h2>
+            <p>Welcome to the Wumpus World, where you navigate through a mysterious cave system filled with dangers.</p>
+        </section>
+
+        <section class="rule-section">
+            <h2>Objective</h2>
+            <p>Your goal is to navigate the cave, avoid hazards, and find the hidden treasure.</p>
+        </section>
+
+        <section class="rule-section">
+            <h2>Gameplay</h2>
+            <ul>
+                <li>You control a character exploring a grid-based cave.</li>
+                <li>Each room may contain hazards like pits or the fearsome Wumpus.</li>
+                <li>Use clues and logic to determine safe paths and locate the treasure.</li>
+                <li>Beware: making the wrong move could lead to danger or defeat!</li>
+            </ul>
+        </section>
+
+        <section class="rule-section">
+            <h2>Rules</h2>
+            <ul>
+                <li>The rooms adjacent to the Wumpus room are smelly, so that it would have some stench.</li>
+                <li>The room adjacent to PITs has a breeze, so if the agent reaches near to PIT, then he will perceive
+                    the breeze.</li>
+                <li>There will be glitter in the room if and only if the room has gold.(Win the Game)</li>
+                <li>Beware: The Wumpus can be killed by the agent if the agent is facing to it, and Wumpus will emit a
+                    horrible scream which can be heard anywhere in the cave.</li>
+            </ul>
+        </section>
+
+        <section class="rule-section">
+            <h2>Controls</h2>
+            <p>Use arrow keys or click/tap on adjacent rooms to move your character.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 All rights reserved.</p>
+        <p>Created by Shyam Mangroliya</p>
+    </footer>
+</body>
+
+</html>
