@@ -162,7 +162,7 @@ function move(direction) {
 function logMove(direction) {
     const movesList = document.getElementById('movesList');
     const li = document.createElement('li');
-    li.textContent = `Moved ${direction}`;
+    li.textContent = `Moved ${direction} (${playerPosition.x}, ${playerPosition.y})`;
     movesList.appendChild(li);
 }
 const currentNodeInfo = document.getElementById('current-node-info');
