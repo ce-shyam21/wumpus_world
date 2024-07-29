@@ -11,16 +11,15 @@ body {
     padding: 0;
 }
 
-header {
-    background-color: rgba(0, 0, 0, 0.689); /* Semi-transparent dark background */
+header, footer {
+    background-color: rgba(0, 0, 0, 0.689);
     color: white;
     padding: 10px 0;
     text-align: center;
 }
 
-.header-container img {
-    max-height: 70px; /* Adjust height of your university logo */
-    max-width: 600px;
+.header-container img, .logo img {
+    max-height: 70px;
     margin-top: 10px;
 }
 
@@ -56,6 +55,9 @@ main {
     font-size: 24px;
     font-weight: bold;
 }
+.visited {
+    background-color: green !important;
+}
 
 #status, #moveLog {
     background-color: #fff;
@@ -77,17 +79,12 @@ main {
     font-family: "JetBrains Mono", monospace;
     height: 48px;
     line-height: 48px;
-    list-style: none;
-    overflow: hidden;
     padding: 0 20px;
     text-align: center;
     text-decoration: none;
     transition: box-shadow .15s, transform .15s;
     user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
     white-space: nowrap;
-    will-change: box-shadow, transform;
     font-size: 18px;
     margin: 10px;
 }
@@ -104,13 +101,6 @@ main {
 .button-29:active {
     box-shadow: #3c4fe0 0 3px 7px inset;
     transform: translateY(2px);
-}
-
-footer {
-    background-color: rgba(0, 0, 0, 0.689); 
-    color: white;
-    padding: 10px 0;
-    text-align: center;
 }
 
 .footer-container p {
